@@ -16,16 +16,17 @@
 set ::env(PDK) "gf180mcuC"
 set ::env(STD_CELL_LIBRARY) "gf180mcu_fd_sc_mcu7t5v0"
 
-set ::env(DESIGN_NAME) user_proj_example
+set ::env(DESIGN_NAME) macro_golden
 
 set ::env(VERILOG_FILES) "\
 	$::env(CARAVEL_ROOT)/verilog/rtl/defines.v \
-	$::env(DESIGN_DIR)/../../verilog/rtl/user_proj_example.v"
+	$::env(DESIGN_DIR)/../../verilog/rtl/macro_golden.v \
+	$::env(DESIGN_DIR)/../../verilog/rtl/alu_xor_4.v "
 
 set ::env(DESIGN_IS_CORE) 0
 
 set ::env(CLOCK_PORT) "wb_clk_i"
-set ::env(CLOCK_NET) "counter.clk"
+set ::env(CLOCK_NET) "clk"
 set ::env(CLOCK_PERIOD) "24.0"
 
 set ::env(FP_SIZING) absolute

@@ -70,42 +70,44 @@ module user_project_wrapper #(
 /* User project is instantiated  here   */
 /*--------------------------------------*/
 
-user_proj_example mprj (
-`ifdef USE_POWER_PINS
-	.vdd(vdd),	// User area 1 1.8V power
-	.vss(vss),	// User area 1 digital ground
-`endif
+//The active signals are assigned to the first bank of Logic Analyzer
+	 wire [31: 0] active;
+	 assign active = la_data_in[31:0];
 
-    .wb_clk_i(wb_clk_i),
-    .wb_rst_i(wb_rst_i),
+	// split remaining 96 logic analizer wires into 3 chunks
+	 wire [31: 0] la1_data_in, la1_data_out, la1_oenb;
+	 assign la1_data_in = la_data_in[63:32];
+	 assign la1_data_out = la_data_out[63:32];
+	 assign la1_oenb = la_oenb[63:32];
 
-    // MGMT SoC Wishbone Slave
+	 macro_golden u_macro_golden (
 
-    .wbs_cyc_i(wbs_cyc_i),
-    .wbs_stb_i(wbs_stb_i),
-    .wbs_we_i(wbs_we_i),
-    .wbs_sel_i(wbs_sel_i),
-    .wbs_adr_i(wbs_adr_i),
-    .wbs_dat_i(wbs_dat_i),
-    .wbs_ack_o(wbs_ack_o),
-    .wbs_dat_o(wbs_dat_o),
+		`ifdef USE_POWER_PINS
+			.vdd(vdd),  // User area 1 digital ground
+			.vss(vss),  // User area 2 digital ground
+		`endif
+			.wb_rst_i(wb_rst_i),
+			.wbs_stb_i(wbs_stb_i),
+			.wbs_cyc_i(wbs_cyc_i),
+			.wbs_we_i(wbs_we_i),
+			.wbs_sel_i(wbs_sel_i),
+			.wbs_dat_i(wbs_dat_i),
+			.wbs_adr_i(wbs_adr_i),
+			.wbs_ack_o(wbs_ack_o),
+			.wbs_dat_o(wbs_dat_o),
+			.la_data_in(la_data_in),
+			.la_data_out(la_data_out),
+			.la_oenb(la_oenb),
+			.io_active(active[1]),
+			.io_in(io_in[37:0]),
+			.io_out(io_out[37:0]),
+			.io_oeb(io_oeb[37:0])
+			//.user_irq(user_irq),
+			//.user_clock2(user_clock2),
+			//.analog_io(analog_io)
 
-    // Logic Analyzer
+		);
 
-    .la_data_in(la_data_in),
-    .la_data_out(la_data_out),
-    .la_oenb (la_oenb),
+		 endmodule	// user_project_wrapper
 
-    // IO Pads
-
-    .io_in (io_in),
-    .io_out(io_out),
-    .io_oeb(io_oeb),
-
-    // IRQ
-    .irq(user_irq)
-);
-
-endmodule	// user_project_wrapper
-
-`default_nettype wire
+ `default_nettype wire
