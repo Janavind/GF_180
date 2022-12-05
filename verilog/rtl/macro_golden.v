@@ -34,7 +34,8 @@
  *
  *-------------------------------------------------------------
  */
-
+`define USE_LA  1
+`define USE_IO  1
 module macro_golden #(
     parameter BITS = 32
 )(

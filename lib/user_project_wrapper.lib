@@ -114,7 +114,7 @@ library (user_project_wrapper) {
     }
     pin("wb_rst_i") {
       direction : input;
-      capacitance : 0.3059;
+      capacitance : 0.0783;
     }
     pin("wbs_ack_o") {
       direction : output;
@@ -122,15 +122,15 @@ library (user_project_wrapper) {
     }
     pin("wbs_cyc_i") {
       direction : input;
-      capacitance : 0.2659;
+      capacitance : 0.0754;
     }
     pin("wbs_stb_i") {
       direction : input;
-      capacitance : 0.2782;
+      capacitance : 0.0732;
     }
     pin("wbs_we_i") {
       direction : input;
-      capacitance : 0.3249;
+      capacitance : 0.0839;
     }
     pin("vss") {
       direction : input;
@@ -146,155 +146,155 @@ library (user_project_wrapper) {
       capacitance : 0.0000;
     pin("io_in[37]") {
       direction : input;
-      capacitance : 0.3930;
+      capacitance : 0.2370;
     }
     pin("io_in[36]") {
       direction : input;
-      capacitance : 0.4391;
+      capacitance : 0.1975;
     }
     pin("io_in[35]") {
       direction : input;
-      capacitance : 0.3442;
+      capacitance : 0.2075;
     }
     pin("io_in[34]") {
       direction : input;
-      capacitance : 0.3039;
+      capacitance : 0.1492;
     }
     pin("io_in[33]") {
       direction : input;
-      capacitance : 0.3333;
+      capacitance : 0.1631;
     }
     pin("io_in[32]") {
       direction : input;
-      capacitance : 0.2764;
+      capacitance : 0.1571;
     }
     pin("io_in[31]") {
       direction : input;
-      capacitance : 0.2351;
+      capacitance : 0.1066;
     }
     pin("io_in[30]") {
       direction : input;
-      capacitance : 0.2153;
+      capacitance : 0.1016;
     }
     pin("io_in[29]") {
       direction : input;
-      capacitance : 0.2278;
+      capacitance : 0.1282;
     }
     pin("io_in[28]") {
       direction : input;
-      capacitance : 0.2286;
+      capacitance : 0.1544;
     }
     pin("io_in[27]") {
       direction : input;
-      capacitance : 0.1875;
+      capacitance : 0.1639;
     }
     pin("io_in[26]") {
       direction : input;
-      capacitance : 0.1669;
+      capacitance : 0.1714;
     }
     pin("io_in[25]") {
       direction : input;
-      capacitance : 0.2064;
+      capacitance : 0.2016;
     }
     pin("io_in[24]") {
       direction : input;
-      capacitance : 0.3695;
+      capacitance : 0.2175;
     }
     pin("io_in[23]") {
       direction : input;
-      capacitance : 0.3159;
+      capacitance : 0.1837;
     }
     pin("io_in[22]") {
       direction : input;
-      capacitance : 0.2100;
+      capacitance : 0.1653;
     }
     pin("io_in[21]") {
       direction : input;
-      capacitance : 0.2069;
+      capacitance : 0.2055;
     }
     pin("io_in[20]") {
       direction : input;
-      capacitance : 0.1063;
+      capacitance : 0.2225;
     }
     pin("io_in[19]") {
       direction : input;
-      capacitance : 0.0639;
+      capacitance : 0.2446;
     }
     pin("io_in[18]") {
       direction : input;
-      capacitance : 0.1141;
+      capacitance : 0.2712;
     }
     pin("io_in[17]") {
       direction : input;
-      capacitance : 0.1311;
+      capacitance : 0.3338;
     }
     pin("io_in[16]") {
       direction : input;
-      capacitance : 0.1840;
+      capacitance : 0.3269;
     }
     pin("io_in[15]") {
       direction : input;
-      capacitance : 0.2684;
+      capacitance : 0.5838;
     }
     pin("io_in[14]") {
       direction : input;
-      capacitance : 0.2226;
+      capacitance : 0.4935;
     }
     pin("io_in[13]") {
       direction : input;
-      capacitance : 0.2054;
+      capacitance : 0.5799;
     }
     pin("io_in[12]") {
       direction : input;
-      capacitance : 0.1513;
+      capacitance : 0.7401;
     }
     pin("io_in[11]") {
       direction : input;
-      capacitance : 0.3189;
+      capacitance : 0.4710;
     }
     pin("io_in[10]") {
       direction : input;
-      capacitance : 0.2658;
+      capacitance : 0.6296;
     }
     pin("io_in[9]") {
       direction : input;
-      capacitance : 0.3813;
+      capacitance : 0.5489;
     }
     pin("io_in[8]") {
       direction : input;
-      capacitance : 0.1919;
+      capacitance : 0.2549;
     }
     pin("io_in[7]") {
       direction : input;
-      capacitance : 0.2271;
+      capacitance : 0.2395;
     }
     pin("io_in[6]") {
       direction : input;
-      capacitance : 0.2324;
+      capacitance : 0.4584;
     }
     pin("io_in[5]") {
       direction : input;
-      capacitance : 0.3278;
+      capacitance : 0.2862;
     }
     pin("io_in[4]") {
       direction : input;
-      capacitance : 0.2663;
+      capacitance : 0.3013;
     }
     pin("io_in[3]") {
       direction : input;
-      capacitance : 0.2820;
+      capacitance : 0.6579;
     }
     pin("io_in[2]") {
       direction : input;
-      capacitance : 0.3382;
+      capacitance : 0.7085;
     }
     pin("io_in[1]") {
       direction : input;
-      capacitance : 0.3156;
+      capacitance : 0.7666;
     }
     pin("io_in[0]") {
       direction : input;
-      capacitance : 0.3673;
+      capacitance : 0.4316;
     }
     }
     bus("io_oeb") {
@@ -617,259 +617,259 @@ library (user_project_wrapper) {
       capacitance : 0.0000;
     pin("la_data_in[63]") {
       direction : input;
-      capacitance : 0.4223;
+      capacitance : 0.3777;
     }
     pin("la_data_in[62]") {
       direction : input;
-      capacitance : 0.2442;
+      capacitance : 0.3238;
     }
     pin("la_data_in[61]") {
       direction : input;
-      capacitance : 0.2976;
+      capacitance : 0.2354;
     }
     pin("la_data_in[60]") {
       direction : input;
-      capacitance : 0.3105;
+      capacitance : 0.5188;
     }
     pin("la_data_in[59]") {
       direction : input;
-      capacitance : 0.2256;
+      capacitance : 0.3149;
     }
     pin("la_data_in[58]") {
       direction : input;
-      capacitance : 0.2850;
+      capacitance : 0.3326;
     }
     pin("la_data_in[57]") {
       direction : input;
-      capacitance : 0.2943;
+      capacitance : 0.2386;
     }
     pin("la_data_in[56]") {
       direction : input;
-      capacitance : 0.2507;
+      capacitance : 0.5358;
     }
     pin("la_data_in[55]") {
       direction : input;
-      capacitance : 0.2826;
+      capacitance : 0.3610;
     }
     pin("la_data_in[54]") {
       direction : input;
-      capacitance : 0.2434;
+      capacitance : 0.4908;
     }
     pin("la_data_in[53]") {
       direction : input;
-      capacitance : 0.2353;
+      capacitance : 0.3271;
     }
     pin("la_data_in[52]") {
       direction : input;
-      capacitance : 0.2441;
+      capacitance : 0.3556;
     }
     pin("la_data_in[51]") {
       direction : input;
-      capacitance : 0.2675;
+      capacitance : 0.3419;
     }
     pin("la_data_in[50]") {
       direction : input;
-      capacitance : 0.2334;
+      capacitance : 0.2157;
     }
     pin("la_data_in[49]") {
       direction : input;
-      capacitance : 0.2603;
+      capacitance : 0.3303;
     }
     pin("la_data_in[48]") {
       direction : input;
-      capacitance : 0.2563;
+      capacitance : 0.3569;
     }
     pin("la_data_in[47]") {
       direction : input;
-      capacitance : 0.2619;
+      capacitance : 0.4670;
     }
     pin("la_data_in[46]") {
       direction : input;
-      capacitance : 0.2812;
+      capacitance : 0.2385;
     }
     pin("la_data_in[45]") {
       direction : input;
-      capacitance : 0.2467;
+      capacitance : 0.3358;
     }
     pin("la_data_in[44]") {
       direction : input;
-      capacitance : 0.2402;
+      capacitance : 0.3457;
     }
     pin("la_data_in[43]") {
       direction : input;
-      capacitance : 0.2102;
+      capacitance : 0.2832;
     }
     pin("la_data_in[42]") {
       direction : input;
-      capacitance : 0.2331;
+      capacitance : 0.4605;
     }
     pin("la_data_in[41]") {
       direction : input;
-      capacitance : 0.2351;
+      capacitance : 0.3868;
     }
     pin("la_data_in[40]") {
       direction : input;
-      capacitance : 0.2262;
+      capacitance : 0.4238;
     }
     pin("la_data_in[39]") {
       direction : input;
-      capacitance : 0.2010;
+      capacitance : 0.4213;
     }
     pin("la_data_in[38]") {
       direction : input;
-      capacitance : 0.2215;
+      capacitance : 0.3797;
     }
     pin("la_data_in[37]") {
       direction : input;
-      capacitance : 0.2162;
+      capacitance : 0.3908;
     }
     pin("la_data_in[36]") {
       direction : input;
-      capacitance : 0.2186;
+      capacitance : 0.3152;
     }
     pin("la_data_in[35]") {
       direction : input;
-      capacitance : 0.2012;
+      capacitance : 0.2754;
     }
     pin("la_data_in[34]") {
       direction : input;
-      capacitance : 0.2142;
+      capacitance : 0.3700;
     }
     pin("la_data_in[33]") {
       direction : input;
-      capacitance : 0.2017;
+      capacitance : 0.3748;
     }
     pin("la_data_in[32]") {
       direction : input;
-      capacitance : 0.2046;
+      capacitance : 0.3915;
     }
     pin("la_data_in[31]") {
       direction : input;
-      capacitance : 0.1757;
+      capacitance : 0.3463;
     }
     pin("la_data_in[30]") {
       direction : input;
-      capacitance : 0.1645;
+      capacitance : 0.3312;
     }
     pin("la_data_in[29]") {
       direction : input;
-      capacitance : 0.1714;
+      capacitance : 0.3905;
     }
     pin("la_data_in[28]") {
       direction : input;
-      capacitance : 0.1850;
+      capacitance : 0.3882;
     }
     pin("la_data_in[27]") {
       direction : input;
-      capacitance : 0.1634;
+      capacitance : 0.3494;
     }
     pin("la_data_in[26]") {
       direction : input;
-      capacitance : 0.1816;
+      capacitance : 0.2711;
     }
     pin("la_data_in[25]") {
       direction : input;
-      capacitance : 0.1682;
+      capacitance : 0.3303;
     }
     pin("la_data_in[24]") {
       direction : input;
-      capacitance : 0.1641;
+      capacitance : 0.3176;
     }
     pin("la_data_in[23]") {
       direction : input;
-      capacitance : 0.2762;
+      capacitance : 0.2988;
     }
     pin("la_data_in[22]") {
       direction : input;
-      capacitance : 0.3154;
+      capacitance : 0.3391;
     }
     pin("la_data_in[21]") {
       direction : input;
-      capacitance : 0.3160;
+      capacitance : 0.2921;
     }
     pin("la_data_in[20]") {
       direction : input;
-      capacitance : 0.4166;
+      capacitance : 0.3253;
     }
     pin("la_data_in[19]") {
       direction : input;
-      capacitance : 0.1647;
+      capacitance : 0.2938;
     }
     pin("la_data_in[18]") {
       direction : input;
-      capacitance : 0.2928;
+      capacitance : 0.2816;
     }
     pin("la_data_in[17]") {
       direction : input;
-      capacitance : 0.4238;
+      capacitance : 0.3111;
     }
     pin("la_data_in[16]") {
       direction : input;
-      capacitance : 0.2067;
+      capacitance : 0.3087;
     }
     pin("la_data_in[15]") {
       direction : input;
-      capacitance : 0.1712;
+      capacitance : 0.2657;
     }
     pin("la_data_in[14]") {
       direction : input;
-      capacitance : 0.1648;
+      capacitance : 0.3079;
     }
     pin("la_data_in[13]") {
       direction : input;
-      capacitance : 0.2933;
+      capacitance : 0.2607;
     }
     pin("la_data_in[12]") {
       direction : input;
-      capacitance : 0.3237;
+      capacitance : 0.2784;
     }
     pin("la_data_in[11]") {
       direction : input;
-      capacitance : 0.1998;
+      capacitance : 0.2326;
     }
     pin("la_data_in[10]") {
       direction : input;
-      capacitance : 0.3079;
+      capacitance : 0.2164;
     }
     pin("la_data_in[9]") {
       direction : input;
-      capacitance : 0.3256;
+      capacitance : 0.2670;
     }
     pin("la_data_in[8]") {
       direction : input;
-      capacitance : 0.3851;
+      capacitance : 0.2319;
     }
     pin("la_data_in[7]") {
       direction : input;
-      capacitance : 0.1991;
+      capacitance : 0.2487;
     }
     pin("la_data_in[6]") {
       direction : input;
-      capacitance : 0.1833;
+      capacitance : 0.2154;
     }
     pin("la_data_in[5]") {
       direction : input;
-      capacitance : 0.2029;
+      capacitance : 0.2250;
     }
     pin("la_data_in[4]") {
       direction : input;
-      capacitance : 0.2066;
+      capacitance : 0.2173;
     }
     pin("la_data_in[3]") {
       direction : input;
-      capacitance : 0.2970;
+      capacitance : 0.2252;
     }
     pin("la_data_in[2]") {
       direction : input;
-      capacitance : 0.2376;
+      capacitance : 0.2136;
     }
     pin("la_data_in[1]") {
       direction : input;
-      capacitance : 0.3285;
+      capacitance : 0.2621;
     }
     pin("la_data_in[0]") {
       direction : input;
-      capacitance : 0.3848;
+      capacitance : 0.1814;
     }
     }
     bus("la_data_out") {
@@ -1139,259 +1139,259 @@ library (user_project_wrapper) {
       capacitance : 0.0000;
     pin("la_oenb[63]") {
       direction : input;
-      capacitance : 0.5972;
+      capacitance : 0.4241;
     }
     pin("la_oenb[62]") {
       direction : input;
-      capacitance : 0.4791;
+      capacitance : 0.4100;
     }
     pin("la_oenb[61]") {
       direction : input;
-      capacitance : 0.2699;
+      capacitance : 0.3518;
     }
     pin("la_oenb[60]") {
       direction : input;
-      capacitance : 0.2342;
+      capacitance : 0.3278;
     }
     pin("la_oenb[59]") {
       direction : input;
-      capacitance : 0.2138;
+      capacitance : 0.2316;
     }
     pin("la_oenb[58]") {
       direction : input;
-      capacitance : 0.2495;
+      capacitance : 0.5665;
     }
     pin("la_oenb[57]") {
       direction : input;
-      capacitance : 0.2599;
+      capacitance : 0.3780;
     }
     pin("la_oenb[56]") {
       direction : input;
-      capacitance : 0.2445;
+      capacitance : 0.3894;
     }
     pin("la_oenb[55]") {
       direction : input;
-      capacitance : 0.2132;
+      capacitance : 0.4081;
     }
     pin("la_oenb[54]") {
       direction : input;
-      capacitance : 0.2155;
+      capacitance : 0.2228;
     }
     pin("la_oenb[53]") {
       direction : input;
-      capacitance : 0.2003;
+      capacitance : 0.3854;
     }
     pin("la_oenb[52]") {
       direction : input;
-      capacitance : 0.1989;
+      capacitance : 0.3548;
     }
     pin("la_oenb[51]") {
       direction : input;
-      capacitance : 0.2106;
+      capacitance : 0.5251;
     }
     pin("la_oenb[50]") {
       direction : input;
-      capacitance : 0.2383;
+      capacitance : 0.3445;
     }
     pin("la_oenb[49]") {
       direction : input;
-      capacitance : 0.2307;
+      capacitance : 0.2147;
     }
     pin("la_oenb[48]") {
       direction : input;
-      capacitance : 0.2740;
+      capacitance : 0.3114;
     }
     pin("la_oenb[47]") {
       direction : input;
-      capacitance : 0.1933;
+      capacitance : 0.2914;
     }
     pin("la_oenb[46]") {
       direction : input;
-      capacitance : 0.1940;
+      capacitance : 0.4564;
     }
     pin("la_oenb[45]") {
       direction : input;
-      capacitance : 0.2049;
+      capacitance : 0.4631;
     }
     pin("la_oenb[44]") {
       direction : input;
-      capacitance : 0.1935;
+      capacitance : 0.3210;
     }
     pin("la_oenb[43]") {
       direction : input;
-      capacitance : 0.1937;
+      capacitance : 0.3395;
     }
     pin("la_oenb[42]") {
       direction : input;
-      capacitance : 0.1903;
+      capacitance : 0.4239;
     }
     pin("la_oenb[41]") {
       direction : input;
-      capacitance : 0.2022;
+      capacitance : 0.3335;
     }
     pin("la_oenb[40]") {
       direction : input;
-      capacitance : 0.2162;
+      capacitance : 0.4652;
     }
     pin("la_oenb[39]") {
       direction : input;
-      capacitance : 0.2018;
+      capacitance : 0.2127;
     }
     pin("la_oenb[38]") {
       direction : input;
-      capacitance : 0.1887;
+      capacitance : 0.3174;
     }
     pin("la_oenb[37]") {
       direction : input;
-      capacitance : 0.1954;
+      capacitance : 0.4364;
     }
     pin("la_oenb[36]") {
       direction : input;
-      capacitance : 0.1766;
+      capacitance : 0.3142;
     }
     pin("la_oenb[35]") {
       direction : input;
-      capacitance : 0.1810;
+      capacitance : 0.3944;
     }
     pin("la_oenb[34]") {
       direction : input;
-      capacitance : 0.1823;
+      capacitance : 0.3050;
     }
     pin("la_oenb[33]") {
       direction : input;
-      capacitance : 0.1842;
+      capacitance : 0.3103;
     }
     pin("la_oenb[32]") {
       direction : input;
-      capacitance : 0.1778;
+      capacitance : 0.3526;
     }
     pin("la_oenb[31]") {
       direction : input;
-      capacitance : 0.1679;
+      capacitance : 0.1953;
     }
     pin("la_oenb[30]") {
       direction : input;
-      capacitance : 0.1702;
+      capacitance : 0.3949;
     }
     pin("la_oenb[29]") {
       direction : input;
-      capacitance : 0.1631;
+      capacitance : 0.3607;
     }
     pin("la_oenb[28]") {
       direction : input;
-      capacitance : 0.1609;
+      capacitance : 0.2463;
     }
     pin("la_oenb[27]") {
       direction : input;
-      capacitance : 0.1688;
+      capacitance : 0.3256;
     }
     pin("la_oenb[26]") {
       direction : input;
-      capacitance : 0.1675;
+      capacitance : 0.3270;
     }
     pin("la_oenb[25]") {
       direction : input;
-      capacitance : 0.1836;
+      capacitance : 0.3524;
     }
     pin("la_oenb[24]") {
       direction : input;
-      capacitance : 0.1846;
+      capacitance : 0.3238;
     }
     pin("la_oenb[23]") {
       direction : input;
-      capacitance : 0.1995;
+      capacitance : 0.1611;
     }
     pin("la_oenb[22]") {
       direction : input;
-      capacitance : 0.2901;
+      capacitance : 0.2486;
     }
     pin("la_oenb[21]") {
       direction : input;
-      capacitance : 0.2796;
+      capacitance : 0.2823;
     }
     pin("la_oenb[20]") {
       direction : input;
-      capacitance : 0.1804;
+      capacitance : 0.3334;
     }
     pin("la_oenb[19]") {
       direction : input;
-      capacitance : 0.2859;
+      capacitance : 0.2515;
     }
     pin("la_oenb[18]") {
       direction : input;
-      capacitance : 0.1858;
+      capacitance : 0.2679;
     }
     pin("la_oenb[17]") {
       direction : input;
-      capacitance : 0.3030;
+      capacitance : 0.2753;
     }
     pin("la_oenb[16]") {
       direction : input;
-      capacitance : 0.2903;
+      capacitance : 0.2468;
     }
     pin("la_oenb[15]") {
       direction : input;
-      capacitance : 0.1596;
+      capacitance : 0.2939;
     }
     pin("la_oenb[14]") {
       direction : input;
-      capacitance : 0.1735;
+      capacitance : 0.2373;
     }
     pin("la_oenb[13]") {
       direction : input;
-      capacitance : 0.2111;
+      capacitance : 0.1379;
     }
     pin("la_oenb[12]") {
       direction : input;
-      capacitance : 0.3273;
+      capacitance : 0.2138;
     }
     pin("la_oenb[11]") {
       direction : input;
-      capacitance : 0.3092;
+      capacitance : 0.2621;
     }
     pin("la_oenb[10]") {
       direction : input;
-      capacitance : 0.1793;
+      capacitance : 0.2409;
     }
     pin("la_oenb[9]") {
       direction : input;
-      capacitance : 0.4522;
+      capacitance : 0.1651;
     }
     pin("la_oenb[8]") {
       direction : input;
-      capacitance : 0.3145;
+      capacitance : 0.2407;
     }
     pin("la_oenb[7]") {
       direction : input;
-      capacitance : 0.2170;
+      capacitance : 0.2297;
     }
     pin("la_oenb[6]") {
       direction : input;
-      capacitance : 0.2357;
+      capacitance : 0.1898;
     }
     pin("la_oenb[5]") {
       direction : input;
-      capacitance : 0.2208;
+      capacitance : 0.1603;
     }
     pin("la_oenb[4]") {
       direction : input;
-      capacitance : 0.2032;
+      capacitance : 0.2103;
     }
     pin("la_oenb[3]") {
       direction : input;
-      capacitance : 0.3464;
+      capacitance : 0.1178;
     }
     pin("la_oenb[2]") {
       direction : input;
-      capacitance : 0.1988;
+      capacitance : 0.1669;
     }
     pin("la_oenb[1]") {
       direction : input;
-      capacitance : 0.3688;
+      capacitance : 0.1441;
     }
     pin("la_oenb[0]") {
       direction : input;
-      capacitance : 0.3433;
+      capacitance : 0.1665;
     }
     }
     bus("user_irq") {
@@ -1417,131 +1417,131 @@ library (user_project_wrapper) {
       capacitance : 0.0000;
     pin("wbs_adr_i[31]") {
       direction : input;
-      capacitance : 0.2087;
+      capacitance : 0.1819;
     }
     pin("wbs_adr_i[30]") {
       direction : input;
-      capacitance : 0.2519;
+      capacitance : 0.1709;
     }
     pin("wbs_adr_i[29]") {
       direction : input;
-      capacitance : 0.2270;
+      capacitance : 0.1466;
     }
     pin("wbs_adr_i[28]") {
       direction : input;
-      capacitance : 0.2298;
+      capacitance : 0.1511;
     }
     pin("wbs_adr_i[27]") {
       direction : input;
-      capacitance : 0.2595;
+      capacitance : 0.1446;
     }
     pin("wbs_adr_i[26]") {
       direction : input;
-      capacitance : 0.2567;
+      capacitance : 0.1442;
     }
     pin("wbs_adr_i[25]") {
       direction : input;
-      capacitance : 0.2806;
+      capacitance : 0.1666;
     }
     pin("wbs_adr_i[24]") {
       direction : input;
-      capacitance : 0.2623;
+      capacitance : 0.1258;
     }
     pin("wbs_adr_i[23]") {
       direction : input;
-      capacitance : 0.2784;
+      capacitance : 0.1590;
     }
     pin("wbs_adr_i[22]") {
       direction : input;
-      capacitance : 0.2604;
+      capacitance : 0.1101;
     }
     pin("wbs_adr_i[21]") {
       direction : input;
-      capacitance : 0.2511;
+      capacitance : 0.1231;
     }
     pin("wbs_adr_i[20]") {
       direction : input;
-      capacitance : 0.4038;
+      capacitance : 0.1057;
     }
     pin("wbs_adr_i[19]") {
       direction : input;
-      capacitance : 0.2855;
+      capacitance : 0.1147;
     }
     pin("wbs_adr_i[18]") {
       direction : input;
-      capacitance : 0.3014;
+      capacitance : 0.1247;
     }
     pin("wbs_adr_i[17]") {
       direction : input;
-      capacitance : 0.3210;
+      capacitance : 0.1266;
     }
     pin("wbs_adr_i[16]") {
       direction : input;
-      capacitance : 0.2906;
+      capacitance : 0.0986;
     }
     pin("wbs_adr_i[15]") {
       direction : input;
-      capacitance : 0.2888;
+      capacitance : 0.0980;
     }
     pin("wbs_adr_i[14]") {
       direction : input;
-      capacitance : 0.3136;
+      capacitance : 0.0789;
     }
     pin("wbs_adr_i[13]") {
       direction : input;
-      capacitance : 0.2799;
+      capacitance : 0.0737;
     }
     pin("wbs_adr_i[12]") {
       direction : input;
-      capacitance : 0.3840;
+      capacitance : 0.0809;
     }
     pin("wbs_adr_i[11]") {
       direction : input;
-      capacitance : 0.3193;
+      capacitance : 0.1000;
     }
     pin("wbs_adr_i[10]") {
       direction : input;
-      capacitance : 0.3243;
+      capacitance : 0.1119;
     }
     pin("wbs_adr_i[9]") {
       direction : input;
-      capacitance : 0.2710;
+      capacitance : 0.0761;
     }
     pin("wbs_adr_i[8]") {
       direction : input;
-      capacitance : 0.3180;
+      capacitance : 0.1130;
     }
     pin("wbs_adr_i[7]") {
       direction : input;
-      capacitance : 0.2837;
+      capacitance : 0.0968;
     }
     pin("wbs_adr_i[6]") {
       direction : input;
-      capacitance : 0.3037;
+      capacitance : 0.0677;
     }
     pin("wbs_adr_i[5]") {
       direction : input;
-      capacitance : 0.2888;
+      capacitance : 0.1040;
     }
     pin("wbs_adr_i[4]") {
       direction : input;
-      capacitance : 0.2961;
+      capacitance : 0.0962;
     }
     pin("wbs_adr_i[3]") {
       direction : input;
-      capacitance : 0.3429;
+      capacitance : 0.0593;
     }
     pin("wbs_adr_i[2]") {
       direction : input;
-      capacitance : 0.2704;
+      capacitance : 0.0707;
     }
     pin("wbs_adr_i[1]") {
       direction : input;
-      capacitance : 0.3005;
+      capacitance : 0.0705;
     }
     pin("wbs_adr_i[0]") {
       direction : input;
-      capacitance : 0.3231;
+      capacitance : 0.0682;
     }
     }
     bus("wbs_dat_i") {
@@ -1550,131 +1550,131 @@ library (user_project_wrapper) {
       capacitance : 0.0000;
     pin("wbs_dat_i[31]") {
       direction : input;
-      capacitance : 0.2311;
+      capacitance : 0.1523;
     }
     pin("wbs_dat_i[30]") {
       direction : input;
-      capacitance : 0.2152;
+      capacitance : 0.1999;
     }
     pin("wbs_dat_i[29]") {
       direction : input;
-      capacitance : 0.2297;
+      capacitance : 0.1443;
     }
     pin("wbs_dat_i[28]") {
       direction : input;
-      capacitance : 0.2508;
+      capacitance : 0.1626;
     }
     pin("wbs_dat_i[27]") {
       direction : input;
-      capacitance : 0.2456;
+      capacitance : 0.1641;
     }
     pin("wbs_dat_i[26]") {
       direction : input;
-      capacitance : 0.2603;
+      capacitance : 0.1396;
     }
     pin("wbs_dat_i[25]") {
       direction : input;
-      capacitance : 0.2008;
+      capacitance : 0.1673;
     }
     pin("wbs_dat_i[24]") {
       direction : input;
-      capacitance : 0.2302;
+      capacitance : 0.1321;
     }
     pin("wbs_dat_i[23]") {
       direction : input;
-      capacitance : 0.2014;
+      capacitance : 0.1366;
     }
     pin("wbs_dat_i[22]") {
       direction : input;
-      capacitance : 0.2022;
+      capacitance : 0.1252;
     }
     pin("wbs_dat_i[21]") {
       direction : input;
-      capacitance : 0.2413;
+      capacitance : 0.1335;
     }
     pin("wbs_dat_i[20]") {
       direction : input;
-      capacitance : 0.3704;
+      capacitance : 0.0938;
     }
     pin("wbs_dat_i[19]") {
       direction : input;
-      capacitance : 0.2542;
+      capacitance : 0.0920;
     }
     pin("wbs_dat_i[18]") {
       direction : input;
-      capacitance : 0.2943;
+      capacitance : 0.1002;
     }
     pin("wbs_dat_i[17]") {
       direction : input;
-      capacitance : 0.2920;
+      capacitance : 0.0841;
     }
     pin("wbs_dat_i[16]") {
       direction : input;
-      capacitance : 0.2125;
+      capacitance : 0.0895;
     }
     pin("wbs_dat_i[15]") {
       direction : input;
-      capacitance : 0.3073;
+      capacitance : 0.0975;
     }
     pin("wbs_dat_i[14]") {
       direction : input;
-      capacitance : 0.3243;
+      capacitance : 0.1273;
     }
     pin("wbs_dat_i[13]") {
       direction : input;
-      capacitance : 0.2326;
+      capacitance : 0.0756;
     }
     pin("wbs_dat_i[12]") {
       direction : input;
-      capacitance : 0.2818;
+      capacitance : 0.0681;
     }
     pin("wbs_dat_i[11]") {
       direction : input;
-      capacitance : 0.2466;
+      capacitance : 0.1138;
     }
     pin("wbs_dat_i[10]") {
       direction : input;
-      capacitance : 0.2675;
+      capacitance : 0.0759;
     }
     pin("wbs_dat_i[9]") {
       direction : input;
-      capacitance : 0.2263;
+      capacitance : 0.0706;
     }
     pin("wbs_dat_i[8]") {
       direction : input;
-      capacitance : 0.2516;
+      capacitance : 0.0745;
     }
     pin("wbs_dat_i[7]") {
       direction : input;
-      capacitance : 0.3035;
+      capacitance : 0.0727;
     }
     pin("wbs_dat_i[6]") {
       direction : input;
-      capacitance : 0.2795;
+      capacitance : 0.0640;
     }
     pin("wbs_dat_i[5]") {
       direction : input;
-      capacitance : 0.2620;
+      capacitance : 0.0959;
     }
     pin("wbs_dat_i[4]") {
       direction : input;
-      capacitance : 0.2662;
+      capacitance : 0.0992;
     }
     pin("wbs_dat_i[3]") {
       direction : input;
-      capacitance : 0.2966;
+      capacitance : 0.0578;
     }
     pin("wbs_dat_i[2]") {
       direction : input;
-      capacitance : 0.2863;
+      capacitance : 0.0597;
     }
     pin("wbs_dat_i[1]") {
       direction : input;
-      capacitance : 0.3121;
+      capacitance : 0.0680;
     }
     pin("wbs_dat_i[0]") {
       direction : input;
-      capacitance : 0.2704;
+      capacitance : 0.0804;
     }
     }
     bus("wbs_dat_o") {
@@ -1816,19 +1816,19 @@ library (user_project_wrapper) {
       capacitance : 0.0000;
     pin("wbs_sel_i[3]") {
       direction : input;
-      capacitance : 0.2872;
+      capacitance : 0.0588;
     }
     pin("wbs_sel_i[2]") {
       direction : input;
-      capacitance : 0.2800;
+      capacitance : 0.0646;
     }
     pin("wbs_sel_i[1]") {
       direction : input;
-      capacitance : 0.2497;
+      capacitance : 0.0630;
     }
     pin("wbs_sel_i[0]") {
       direction : input;
-      capacitance : 0.2872;
+      capacitance : 0.0764;
     }
     }
   }

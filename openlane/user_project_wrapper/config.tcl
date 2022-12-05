@@ -40,12 +40,13 @@ set ::env(CLOCK_PERIOD) "10"
 
 ## Internal Macros
 ### Macro PDN Connections
-set ::env(FP_PDN_MACRO_HOOKS) "\
-	u_macro_golden vdd vss vdd vss"
+set ::env(FP_PDN_MACRO_HOOKS) " u_macro_golden vdd vss vdd vss "
 
 ### Macro Placement
 set ::env(MACRO_PLACEMENT_CFG) $::env(DESIGN_DIR)/macro.cfg
-
+set ::env(VDD_NETS) [list {vdd}]
+set ::env(GND_NETS) [list {vss}]
+set ::env(SYNTH_USE_PG_PINS_DEFINES) "USE_POWER_PINS"
 ### Black-box verilog and views
 set ::env(VERILOG_FILES_BLACKBOX) "\
 	$::env(CARAVEL_ROOT)/verilog/rtl/defines.v \
