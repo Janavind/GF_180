@@ -108,8 +108,8 @@ macro_golden u_macro_golden (
 
 		);
 
-/*
- macro_decap u_macro_decap (
+
+ macro_decap64 u_macro_decap64 (
 
                 `ifdef USE_POWER_PINS
                         .vdd(vdd),  // User area 1 digital ground
@@ -136,8 +136,63 @@ macro_golden u_macro_golden (
                         //.analog_io(analog_io)
 
                 );
-*/
 
+macro_decap8 u_macro_decap8 (
+
+                `ifdef USE_POWER_PINS
+                        .vdd(vdd),  // User area 1 digital ground
+                        .vss(vss),  // User area 2 digital ground
+                `endif
+                        .wb_rst_i(wb_rst_i),
+                        .wbs_stb_i(wbs_stb_i),
+                        .wbs_cyc_i(wbs_cyc_i),
+                        .wbs_we_i(wbs_we_i),
+                        .wbs_sel_i(wbs_sel_i),
+                        .wbs_dat_i(wbs_dat_i),
+                        .wbs_adr_i(wbs_adr_i),
+                        .wbs_ack_o(wbs_ack_o),
+                        .wbs_dat_o(wbs_dat_o),
+                        .la_data_in(la_data_in),
+                        .la_data_out(la_data_out),
+                        .la_oenb(la_oenb),
+                        .io_active(active[2]),
+                        .io_in(io_in[37:0]),
+                        .io_out(io_out[37:0]),
+                        .io_oeb(io_oeb[37:0])
+                        //.user_irq(user_irq),
+                        //.user_clock2(user_clock2),
+                        //.analog_io(analog_io)
+
+                );
+
+
+macro_tap u_macro_tap (
+
+                `ifdef USE_POWER_PINS
+                        .vdd(vdd),  // User area 1 digital ground
+                        .vss(vss),  // User area 2 digital ground
+                `endif
+                        .wb_rst_i(wb_rst_i),
+                        .wbs_stb_i(wbs_stb_i),
+                        .wbs_cyc_i(wbs_cyc_i),
+                        .wbs_we_i(wbs_we_i),
+                        .wbs_sel_i(wbs_sel_i),
+                        .wbs_dat_i(wbs_dat_i),
+                        .wbs_adr_i(wbs_adr_i),
+                        .wbs_ack_o(wbs_ack_o),
+                        .wbs_dat_o(wbs_dat_o),
+                        .la_data_in(la_data_in),
+                        .la_data_out(la_data_out),
+                        .la_oenb(la_oenb),
+                        .io_active(active[3]),
+                        .io_in(io_in[37:0]),
+                        .io_out(io_out[37:0]),
+                        .io_oeb(io_oeb[37:0])
+                        //.user_irq(user_irq),
+                        //.user_clock2(user_clock2),
+                        //.analog_io(analog_io)
+
+                );
 
                  endmodule      // user_project_wrapper 
 		 

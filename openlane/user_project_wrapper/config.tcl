@@ -40,24 +40,32 @@ set ::env(CLOCK_PERIOD) "10"
 
 ## Internal Macros
 ### Macro PDN Connections
-set ::env(FP_PDN_MACRO_HOOKS) " u_macro_golden vdd vss vdd vss "
+set ::env(FP_PDN_MACRO_HOOKS) " u_macro_golden vdd vss vdd vss, u_macro_decap64 vdd vss vdd vss, u_macro_decap8 vdd vss vdd vss, u_macro_tap vdd vss vdd vss "
 
 ### Macro Placement
 set ::env(MACRO_PLACEMENT_CFG) $::env(DESIGN_DIR)/macro.cfg
 set ::env(VDD_NETS) [list {vdd}]
 set ::env(GND_NETS) [list {vss}]
 set ::env(SYNTH_USE_PG_PINS_DEFINES) "USE_POWER_PINS"
-### Black-box verilog and views
+### Black-box verilog and viewsi
 set ::env(VERILOG_FILES_BLACKBOX) "\
 	$::env(CARAVEL_ROOT)/verilog/rtl/defines.v \
 	$::env(DESIGN_DIR)/../../verilog/rtl/macro_golden.v \
+	$::env(DESIGN_DIR)/../../verilog/rtl/macro_decap64.v \
+	$::env(DESIGN_DIR)/../../verilog/rtl/macro_decap8.v \
+	$::env(DESIGN_DIR)/../../verilog/rtl/macro_tap.v \
 	$::env(DESIGN_DIR)/../../verilog/rtl/alu_xor_4.v"
 
 set ::env(EXTRA_LEFS) "\
-	$::env(DESIGN_DIR)/../../lef/macro_golden.lef"
-
+	$::env(DESIGN_DIR)/../../lef/macro_golden.lef \
+	$::env(DESIGN_DIR)/../../lef/macro_tap.lef \
+	$::env(DESIGN_DIR)/../../lef/macro_decap8.lef \
+	$::env(DESIGN_DIR)/../../lef/macro_decap64.lef"
 set ::env(EXTRA_GDS_FILES) "\
-	$::env(DESIGN_DIR)/../../gds/macro_golden.gds"
+	$::env(DESIGN_DIR)/../../gds/macro_golden.gds \
+	$::env(DESIGN_DIR)/../../gds/macro_tap.gds \
+	$::env(DESIGN_DIR)/../../gds/macro_decap8.gds \
+	$::env(DESIGN_DIR)/../../gds/macro_decap64.gds"
 
 set ::env(RT_MAX_LAYER) {Metal4}
 

@@ -16,10 +16,10 @@
 set ::env(PDK) "gf180mcuC"
 set ::env(STD_CELL_LIBRARY) "gf180mcu_fd_sc_mcu7t5v0"
 
-set ::env(DESIGN_NAME) macro_golden
+set ::env(DESIGN_NAME) macro_decap64
 
 set ::env(VERILOG_FILES) "$::env(CARAVEL_ROOT)/verilog/rtl/defines.v \
-       	$::env(DESIGN_DIR)/../../verilog/rtl/macro_golden.v \
+       	$::env(DESIGN_DIR)/../../verilog/rtl/macro_decap64.v \
        	$::env(DESIGN_DIR)/../../verilog/rtl/alu_xor_4.v "
 
 set ::env(DESIGN_IS_CORE) 0
@@ -29,16 +29,19 @@ set ::env(CLOCK_NET) "counter.clk"
 set ::env(CLOCK_PERIOD) "24.0"
 
 set ::env(FP_SIZING) absolute
-set ::env(DIE_AREA) "0 0 600 600"
+set ::env(DIE_AREA) "0 0 400 400"
 
 set ::env(FP_PIN_ORDER_CFG) $::env(DESIGN_DIR)/pin_order.cfg
 
 set ::env(PL_BASIC_PLACEMENT) 0
 set ::env(PL_TARGET_DENSITY) 0.75
 
-set ::env(FP_CORE_UTIL) 20
+set ::env(FP_CORE_UTIL) 50
 
 set ::env(SYNTH_MAX_FANOUT) 4
+
+set ::env(DECAP_CELL) {gf180mcu_fd_sc_mcu7t5v0__fillcap_64}
+
 
 # Maximum layer used for routing is metal 4.
 # This is because this macro will be inserted in a top level (user_project_wrapper) 
