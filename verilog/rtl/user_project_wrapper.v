@@ -136,7 +136,7 @@ macro_golden u_macro_golden (
                         //.analog_io(analog_io)
 
                 );
-
+/*
 macro_decap8 u_macro_decap8 (
 
                 `ifdef USE_POWER_PINS
@@ -165,7 +165,7 @@ macro_decap8 u_macro_decap8 (
 
                 );
 
-
+*/
 macro_tap u_macro_tap (
 
                 `ifdef USE_POWER_PINS
